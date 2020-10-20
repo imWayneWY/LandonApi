@@ -16,3 +16,21 @@
 /Users/yanwei/Downloads/Ex_Files_RESTful_ASP_NET/Exercise Files/Ch06/06_03/End/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.dll
 /Users/yanwei/Downloads/Ex_Files_RESTful_ASP_NET/Exercise Files/Ch06/06_03/End/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.pdb
 /Users/yanwei/Downloads/Ex_Files_RESTful_ASP_NET/Exercise Files/Ch06/06_03/End/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.genruntimeconfig.cache
+/Users/yanwei/Hack/LandonApi/bin/Debug/netcoreapp2.1/appsettings.Development.json
+/Users/yanwei/Hack/LandonApi/bin/Debug/netcoreapp2.1/appsettings.json
+/Users/yanwei/Hack/LandonApi/bin/Debug/netcoreapp2.1/Properties/launchSettings.json
+/Users/yanwei/Hack/LandonApi/bin/Debug/netcoreapp2.1/LandonApi.deps.json
+/Users/yanwei/Hack/LandonApi/bin/Debug/netcoreapp2.1/LandonApi.runtimeconfig.json
+/Users/yanwei/Hack/LandonApi/bin/Debug/netcoreapp2.1/LandonApi.runtimeconfig.dev.json
+/Users/yanwei/Hack/LandonApi/bin/Debug/netcoreapp2.1/LandonApi.dll
+/Users/yanwei/Hack/LandonApi/bin/Debug/netcoreapp2.1/LandonApi.pdb
+/Users/yanwei/Hack/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.csprojAssemblyReference.cache
+/Users/yanwei/Hack/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.AssemblyInfoInputs.cache
+/Users/yanwei/Hack/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.AssemblyInfo.cs
+/Users/yanwei/Hack/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.csproj.CoreCompileInputs.cache
+/Users/yanwei/Hack/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.RazorAssemblyInfo.cache
+/Users/yanwei/Hack/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.RazorAssemblyInfo.cs
+/Users/yanwei/Hack/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.RazorTargetAssemblyInfo.cache
+/Users/yanwei/Hack/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.dll
+/Users/yanwei/Hack/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.pdb
+/Users/yanwei/Hack/LandonApi/obj/Debug/netcoreapp2.1/LandonApi.genruntimeconfig.cache
