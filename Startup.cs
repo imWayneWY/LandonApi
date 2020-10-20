@@ -18,6 +18,7 @@ using NSwag.AspNetCore;
 using LandonApi.Services;
 using AutoMapper;
 using LandonApi.Infrastructure;
+using Newtonsoft.Json;
 
 namespace LandonApi
 {
@@ -33,10 +34,13 @@ namespace LandonApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<HotelInfo>(
-                Configuration.GetSection("Info"));
+            services.Configure<HotelInfo>(Configuration.GetSection("Info"));
+            services.Configure<HotelOptions>(Configuration);
 
             services.AddScoped<IRoomService, DefaultRoomService>();
+            services.AddScoped<IOpeningService, DefaultOpeningService>();
+            services.AddScoped<IBookingService, DefaultBookingService>();
+            services.AddScoped<IDateLogicService, DefaultDateLogicService>();
 
             // Use in-memory database for quick dev and testing
             // TODO: Swap out for a real database in production
@@ -51,7 +55,15 @@ namespace LandonApi
                         .Add<RequireHttpsOrCloseAttribute>();
                     options.Filters.Add<LinkRewritingFilter>();
                 })
-                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+                .AddJsonOptions(options =>
+                {
+                    // These should be the defaults, but we can be explicit:
+                    options.SerializerSettings.DateTimeZoneHandling = DateTimeZoneHandling.Utc;
+                    options.SerializerSettings.DateFormatHandling = DateFormatHandling.IsoDateFormat;
+                    options.SerializerSettings.DateParseHandling = DateParseHandling.DateTimeOffset;
+
+                });
 
             services
                 .AddRouting(options => options.LowercaseUrls = true);

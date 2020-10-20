@@ -28,7 +28,7 @@ namespace LandonApi.Models
                 Method = GetMethod,
                 Relations = new[] { "collection" }
             };
-        
+
         [JsonProperty(Order = -4)]
         public string Href { get; set; }
 

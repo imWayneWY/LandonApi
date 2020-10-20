@@ -40,7 +40,7 @@ namespace LandonApi.Services
         {
             var query = _context.Rooms
                 .ProjectTo<Room>(_mappingConfiguration);
-            
+
             return await query.ToArrayAsync();
         }
     }

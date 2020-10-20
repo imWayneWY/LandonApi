@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 
 namespace LandonApi.Models
 {
-    public class Collection<T> : Resource
+    public class BookingRange
     {
-        public T[] Value { get; set; }
+        public DateTimeOffset StartAt { get; set; }
+
+        public DateTimeOffset EndAt { get; set; }
     }
 }
